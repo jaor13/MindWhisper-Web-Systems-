@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Explore a curated collection of articles, books, and videos related to mental health and well-being. Learn about the importance of mental health, discover valuable resources from trusted sources such as Verywell Mind, WHO, HelpGuide.org, and Harvard Health. Additionally, find insightful books and informative videos to help you on your journey to mental wellness.">
     <meta name="keywords" content="Articles, Books, and Videos.">
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
     <title>Resource Library</title>
 </head>
 <body>
@@ -37,14 +38,34 @@
     </header>
    
     <main>
-    <h1>Articles</h1>
-    <ul>
-        <li><a href="https://www.verywellmind.com/the-importance-of-mental-health-3145086">The Importance of Mental Health (verywellmind.com)</a></li>
-        <li><a href="https://www.who.int/health-topics/mental-health#tab=tab_1">Mental health (who.int)</a></li>
-        <li><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6750961/">Mental Health Prevention and Promotion—A Narrative Review - PMC (nih.gov)</a></li>
-        <li><a href="https://www.helpguide.org/articles/mental-health/building-better-mental-health.htm">Building Better Mental Health - HelpGuide.org</a></li>
-        <li><a href="https://www.health.harvard.edu/topics/mental-health">Mental Health - Harvard Health</a></li>
-    </ul>
+    <section class="articles">
+        <h1>Articles</h1>
+        <article>
+            <div class="article-wrapper">
+                <figure>
+                    <img src="https://picsum.photos/id/1011/800/450" alt="" />
+                </figure>
+                <div class="article-body">
+                    <h2>The Importance of Mental Health</h2>
+                    <p>
+                        Curabitur convallis ac quam vitae laoreet. Nulla mauris ante, euismod sed lacus sit amet, congue bibendum eros. Etiam mattis lobortis porta. Vestibulum ultrices iaculis enim imperdiet egestas.
+                    </p>
+                    <a href="https://www.verywellmind.com/the-importance-of-mental-health-3145086" class="read-more">
+                        <p>Read more <i class='bx bx-right-arrow-alt'></i></p>
+                    </a>
+                </div>
+            </div>
+        </article>        
+
+
+  <!-- 
+    1)yung acticles, videos,books nasa section tag ,bali 3 section
+    2) sa acticles follow format na yan, use related/palitan image nalang and add alt.also in the <p> add some short summary or description kag article)
+  -->
+
+
+      </section>
+     
 
     <h1>Books</h1>
     <ul style="list-style-type: none;">
@@ -70,6 +91,13 @@
         </li>
     </ul>
 
+    
+  <!-- 
+    1)sa books enclosed sa section gaya ng articles. add some <p> para sa description ng book if ano ba laman niyan
+
+  -->
+
+
     <h1>Videos</h1>
     <ul>
         <li><a href="https://youtu.be/AOHT-YiOeQA?si=S2qkVEFb6F4uE-CS">Video 1</a></li>
@@ -78,7 +106,29 @@
         <li><a href="https://youtu.be/G0zJGDokyWQ?si=z8cz8hs55l8Qw3JH">Video 4</a></li>
         <li><a href="https://youtu.be/54sDdNa9vek?si=qwkyUul7sbQ4P18Y">Video 5</a></li>
     </ul>
+    <div>
+        <div style="margin-right: 20px;">
+            <iframe width="400" height="300" src="https://www.youtube.com/embed/URUJD5NEXC8?si=cttjeqkVqLHwUWyu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <div>
+                <h2><b>Learn more about Cell Structure</b></h2>
+                <p>Description: Add your description here.</p>
+            </div>
+        </div>
+        
+        <!--1)add more -->
+
+        
+    </div>
+    
 </main>
+
+
+    
+  <!-- 
+    1)sa videos enclosed din sa section
+    2) use iframe instead of <a>
+    3) follow format given na nilagay kong <iframe>
+  -->
 <footer class="footer">
     <div>
         <div>
