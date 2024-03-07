@@ -1,35 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Feedback and Suggestions</title>
-</head>
-<body>
-    <h1>Mind Whisper <br> Feedback and Suggestions</h1>
-    <img src="assets/images/feedback and suggestions/FandS.png" alt="Logo Representation" style="height: 250px; width: 500px; position: relative;">
-    <p>We value your feedback and suggestions. Please share your thoughts with us.</p>
-    
-    <div>
-    <form action="#">
+    <link rel="icon" href="assets/images/favicon_io/favicon.ico" type="image/x-icon">
+    <title>Feedback and Suggestions Form</title>
+    <meta name="description" content="The feedback and suggestion form provides users with the opportunity to share their thoughts and experiences regarding our website MindWhisper.">
+    <meta name="tags" content="feedback, rating, suggestions">
+</head> 
 
-        <p>Rate your experience in exploring our webpage.</p>
-        <input type="radio" id="rating1" name="rating" value="1">
-        <label for="rating1">1</label>
-        <input type="radio" id="rating2" name="rating" value="2">
-        <label for="rating2">2</label>
-        <input type="radio" id="rating3" name="rating" value="3">
-        <label for="rating3">3</label>
-        <input type="radio" id="rating4" name="rating" value="4">
-        <label for="rating4">4</label>
-        <input type="radio" id="rating5" name="rating" value="5">
-        <label for="rating5">5</label><br><br>
+ <body>
+    <main>
+      <h1>Feedback and Suggestion Form</h1>
+            <form action="#">
+                <div class="grade-type">
+                    <h2>Rate Our Website</h2>
+                    
+                    <div> 
+                        <input type="radio" value="none" id="radioOne" name="grade" checked/>
+                        <label for="radioOne" class="radio">Excellent</label>
+                    </div>
+                    <div>
+                        <input type="radio" value="none" id="radioTwo" name="grade" />
+                        <label for="radioTwo" class="radio">Very Good</label>
+                    </div>
+                    <div>
+                        <input type="radio" value="none" id="radioThree" name="grade" />
+                        <label for="radioThree" class="radio">Good</label>
+                    </div>
+                    <div>
+                        <input type="radio" value="none" id="radioFour" name="grade" />
+                        <label for="radioFour" class="radio">Bad</label>
+                    </div>
+                    <div>
+                        <input type="radio" value="none" id="radioFive" name="grade" />
+                        <label for="radioFive" class="radio">Very Bad</label>
+                    </div>
+                </div>
 
-        <label for="message"> Feedback and Suggestions:</label><br>
-        <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+                <div>
+                    <h2>Tell Us Your Impression</h2>
 
-        <input type="submit" value="Submit">
-    </form>
-    </div>
-</body>
+                    <textarea rows="4" cols="30"></textarea> <br>
+                    <button type="submit" href="/">Submit</button>
+                </div>
+            </form>
+    </main>
+  </body>
 </html>
